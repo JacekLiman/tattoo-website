@@ -20,6 +20,16 @@ export default {
       xl: "1300px",
     },
     extend: {
+      animation: {
+        down: "down 1s linear forwards",
+      },
+
+      keyframes: {
+        down: {
+          "0%": { transform: "translateY(-80px)" },
+          "100%": { transform: "translateY(0px)", opacity: "1" },
+        },
+      },
       colors: {
         dark: "#111111",
         grey: {
@@ -27,12 +37,12 @@ export default {
         },
       },
       backgroundImage: {
-        hero: "url('/src/img/hero/bg.jpg')",
-        about: "url('/src/img/about/image.png')",
-        interview: "url('/src/img/interview/bg.png')",
+        hero: "url('/src/assets/img/hero/bg.jpg')",
+        about: "url('/src/assets/img/about/image.png')",
+        interview: "url('/src/assets/img/interview/bg.png')",
       },
       content: {
-        outlineText: 'url("/src/img/hero/outline-text.svg")',
+        outlineText: 'url("/src/assets/img/hero/outline-text.svg")',
       },
     },
   },
