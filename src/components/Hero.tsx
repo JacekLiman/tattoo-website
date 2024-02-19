@@ -3,7 +3,7 @@ import { heroData } from "../data";
 const Hero = () => {
   const { title, subtitle, btnText, btnIcon } = heroData;
   return (
-    <section className="bg-hero bg-cover bg-center h-[40vh] lg:h-screen bg-no-repeat relative">
+    <section className="mt-[99px] bg-hero bg-cover bg-center h-[70vh] lg:h-screen bg-no-repeat relative">
       <div className="container mx-auto text-white h-full">
         <div className="grid grid-cols-1 md:grid-cols-2 h-full">
           <div className="hidden md:block"></div>

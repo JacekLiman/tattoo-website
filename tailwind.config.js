@@ -23,7 +23,6 @@ export default {
       animation: {
         down: "down 1s linear forwards",
       },
-
       keyframes: {
         down: {
           "0%": { transform: "translateY(-80px)" },
