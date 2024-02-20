@@ -1,4 +1,5 @@
 import { heroData } from "../data";
+import ImgText from "../assets/img/hero/outline-text.svg";
 
 const Hero = () => {
   const { title, subtitle, btnText, btnIcon } = heroData;
@@ -25,6 +26,12 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      <img
+        className="hidden md:block absolute max-h-[120px] left-1/2 -translate-x-1/2 bottom-8"
+        src={ImgText}
+        alt=""
+      />
     </section>
   );
 };

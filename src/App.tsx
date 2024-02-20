@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
@@ -6,7 +7,8 @@ function App() {
     <div className="max-w-[1920px] mx-auto overflow-hidden">
       <Header />
       <Hero />
-      <div className="h-[1000px]"></div>
+      <About />
+     
     </div>
   );
 }

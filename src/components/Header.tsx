@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import { headerData } from "../data";
 
@@ -18,7 +18,7 @@ const Header = () => {
 
   const { logo } = headerData;
   return (
-    <header className="fixed left-0 top-0 w-screen z-50 duration-300 shadow-2xl">
+    <header className={` ${ isActive  ? "shadow-xl":"shadow-none"  } fixed left-0 top-0 w-screen z-50 duration-300`}>
       <div className={`max-w-[1920px] mx-auto bg-[#E5E5E5]`}>
         <div className="container mx-auto py-3">
           <div className="flex justify-between items-center">
