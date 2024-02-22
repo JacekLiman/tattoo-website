@@ -3,9 +3,9 @@ import { aboutData } from "../data";
 const About = () => {
   const { title, subtitle1, subtitle2, btnText, btnIcon } = aboutData;
   return (
-    <section className="py-12">
+    <section className="py-20 xl:pb-0">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row gap-8">
           <div className="text-[360px] xl:text-[720px] leading-none font-tertiary bg-about bg-no-repeat bg-right bg-cover bg-clip-text text-transparent flex justify-center">
             01
           </div>
