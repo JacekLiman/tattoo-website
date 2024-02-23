@@ -2,6 +2,7 @@ import About from "./components/About";
 import GallerySection from "./components/GallerySection";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <GallerySection/>
-     
+      <GallerySection />
+      <Skills />
     </div>
   );
 }
