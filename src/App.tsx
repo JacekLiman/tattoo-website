@@ -2,6 +2,7 @@ import About from "./components/About";
 import GallerySection from "./components/GallerySection";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Interview from "./components/Interview";
 import Skills from "./components/Skills";
 import Testimonial from "./components/Testimonial";
 
@@ -13,7 +14,8 @@ function App() {
       <About />
       <GallerySection />
       <Skills />
-      <Testimonial/>
+      <Testimonial />
+      <Interview />
     </div>
   );
 }
