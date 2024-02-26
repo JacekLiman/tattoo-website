@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="container mx-auto">
         <div>
           <h2 className="h2 max-w-[500px]">{title}</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-5">
               {info.map((item, idx) => {
                 const { title, subtitle, address, phone, email, link } = item;

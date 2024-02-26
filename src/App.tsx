@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Copyright from "./components/Copyright";
 import Footer from "./components/Footer";
 import GallerySection from "./components/GallerySection";
 import Header from "./components/Header";
@@ -20,6 +21,7 @@ function App() {
       <Interview />
       <Contact />
       <Footer />
+      <Copyright />
     </div>
   );
 }

@@ -50,9 +50,7 @@ const Footer = () => {
               {program.items.map((item, idx) => {
                 return (
                   <li key={idx} className="text-[16px]">
-                    <a className="inline-block" href={item.href}>
-                      {item.name}
-                    </a>
+                    {item.name}
                   </li>
                 );
               })}
@@ -64,9 +62,9 @@ const Footer = () => {
             </h3>
             <p className="mt-3 mb-6 text-[16px]">{newsletter.subtitle}</p>
             <form onSubmit={(e) => e.preventDefault()}>
-              <div className="flex justify-between items-center border-b-[1px] border-white">
+              <div className="flex justify-between items-center border-b border-white">
                 <input
-                  className="flex-1 italic bg-transparent  placeholder:text-[#555] outline-none pb-3"
+                  className="flex-1 italic bg-transparent  placeholder:text-[#555] outline-none pb-2"
                   type="text"
                 />
                 <button>{newsletter.form.icon}</button>
