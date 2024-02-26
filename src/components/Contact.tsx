@@ -28,7 +28,12 @@ const Contact = () => {
                         <div>{email.icon}</div>
                         {email.address}
                       </div>
-                      <a className="inline-block mt-6 pb-1 border-b-2 border-dark" href="#">{link}</a>
+                      <a
+                        className="inline-block mt-6 pb-1 border-b-2 border-dark"
+                        href="#"
+                      >
+                        {link}
+                      </a>
                     </div>
                   </div>
                 );
@@ -37,12 +42,26 @@ const Contact = () => {
             <div>
               <form>
                 <div className="flex flex-col gap-5">
-                  <input className="bg-transparent border-b border-dark placeholder:text-[#555] outline-none pb-3" type="text" placeholder={form.name} />
-                  <input className="bg-transparent border-b border-dark placeholder:text-[#555] outline-none pb-3" type="text" placeholder={form.email} />
-                  <input className="bg-transparent border-b border-dark placeholder:text-[#555] outline-none pb-3" type="text" placeholder={form.message} />
+                  <input
+                    className="italic bg-transparent border-b border-dark placeholder:text-[#555] outline-none pb-3"
+                    type="text"
+                    placeholder={form.name}
+                  />
+                  <input
+                    className="italic bg-transparent border-b border-dark placeholder:text-[#555] outline-none pb-3"
+                    type="text"
+                    placeholder={form.email}
+                  />
+                  <input
+                    className="italic bg-transparent border-b border-dark placeholder:text-[#555] outline-none pb-3"
+                    type="text"
+                    placeholder={form.message}
+                  />
                 </div>
 
-                <button className="mt-5 btn btn-dark btn-sm">{form.btnText}</button>
+                <button className="mt-5 btn btn-dark btn-sm">
+                  {form.btnText}
+                </button>
               </form>
             </div>
           </div>
