@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import GallerySection from "./components/GallerySection";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -16,6 +17,7 @@ function App() {
       <Skills />
       <Testimonial />
       <Interview />
+      <Contact />
     </div>
   );
 }
